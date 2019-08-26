@@ -3,7 +3,7 @@
 Is the earth really the hottest at the equator?
 
 
-Check out the deployment of this project here: https://sherirosalia.github.io/Visualization_project/index.html
+Check out the deployment of this project here: https://github.com/sherirosalia/Visualization_Website.git
 
 # Home page:
 ![](https://github.com/sherirosalia/Visualization_Website/blob/master/Home.png)
