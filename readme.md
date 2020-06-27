@@ -8,7 +8,7 @@ This project creates a website to display data collected from Open Weather Map f
 Bootstrap 4
 Python script to convert csv to json
 D3.js to create table
-Vanilla JavaScript to control scrolling
+JQuery to control scrolling
 
 ### File Structure
 Root folder contains index.html, javascript for navigation bar and some css
