@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Data Table</title>
+  </head>
+  <body>
+
+    <div class="container" >
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"  href="#"><img src="../images/logo.png" id="nav_logo" alt="navigation rose logo"></a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Visualizations</a>   
+              <div class="dropdown-menu">
+                  <a href="../images/temperature.png" class="dropdown-item">Latitude vs Temperatures</a>
+                  <a href="../images/humidity.png" class="dropdown-item">Latitude vs Humidity</a>
+                  <a href="../images/windspeed.png" class="dropdown-item">Latitude vs Windspeed</a>
+                  <a href="../images/cloudiness.png" class="dropdown-item">Latitude vs Cloudiness</a>
+              </div> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compare.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="world.html">World at a Glance</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+   <!-- end of nav -->
+
+    <section class="container-fluid flex-grow content">
+          <!-- put page content below -->
+
+        <div class="row">
+            <div class="col-md-12"><h1>The Data</h1></div>
+        </div>  
+    <!-- <div class="table-responsive"> -->
+       <div class="col-md-12">
+          <div id="table-area" class="">
+            <table id="table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">City</th>
+                  <th class="table-head">Country</th>
+                  <th class="table-head">City ID</th>
+                  <th class="table-head">Latitude</th>
+                  <th class="table-head">Longitude</th>
+                  <th class="table-head">Temperature (F)</th>
+                  <th class="table-head">Humidity (%)</th>
+                  <th class="table-head">Cloudiness (%)</th>
+                  <th class="table-head">Wind Speed (mph)</th>                  
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+<!-- </div> -->
+
+      </section>
+      <!-- end of sectiion -->
+
+      <!-- beginning of footer -->
+    </div>
+      <footer class="bg-dark text-white mt-auto">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5></h5></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5"><a class="navbar-brand" href=""><img src="../images/logo.png" id="foot_logo" alt="footer logo"></a>Sheri Rosalia<span class="small"><br></span></div>
+                <div class="col-md-4">
+                  <ul class="list-unstyled f_link">
+                  <li><a href="https://sherirosalia.github.io/sherirosalia.io/" class="text-light text-decoration-none" target="_blank">About</a></li>
+                  <li><a href="https://github.com/sherirosalia" class="text-light text-decoration-none" target="_blank">Linkedin </a></li>
+                  <li><a href="https://github.com/sherirosalia" class="text-light text-decoration-none" target="_blank">Github</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 text-right small align-self-end">©2020 Not So Santa Rosalia</div>
+            </div>
+            <!-- end of footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="table_js/data.js"></script>
+    <script src="table_js/table.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
