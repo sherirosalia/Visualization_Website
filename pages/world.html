@@ -21,21 +21,12 @@
         <a class="navbar-brand"  href="#"><img src="../images/logo.png" id="nav_logo" alt="navigation rose logo"></a>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
 
-            <li class="nav-item">
-              <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Visualizations</a>   
-              <div class="dropdown-menu">
-                  <a href="../images/temperature.png" class="dropdown-item">Latitude vs Temperatures</a>
-                  <a href="../images/humidity.png" class="dropdown-item">Latitude vs Humidity</a>
-                  <a href="../images/windspeed.png" class="dropdown-item">Latitude vs Windspeed</a>
-                  <a href="../images/cloudiness.png" class="dropdown-item">Latitude vs Cloudiness</a>
-              </div> 
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="table.html">Data</a>
             </li>
@@ -43,24 +34,34 @@
               <a class="nav-link" href="compare.html">Comparisons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="world.html">World at a Glance</a>
+              <a class="nav-link active" href="world.html">World at a Glance</a>
             </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Visualizations</a>   
+                <div class="dropdown-menu">
+                    <a href="v1.html" class="dropdown-item">Latitude vs Temperatures</a>
+                    <a href="v2.html" class="dropdown-item">Latitude vs Humidity</a>
+                    <a href="v3.html" class="dropdown-item">Latitude vs Windspeed</a>
+                    <a href="v4.html" class="dropdown-item">Latitude vs Cloudiness</a>
+                </div> 
+              </li>
           </ul>
 
         </div>
       </nav>
    <!-- end of nav -->
-
       <section class="container-fluid flex-grow content">
           <!-- put page content below -->
 
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
-                    <h4 id=>World at a Glance</h4>
+                    <h2>World at a Glance</h2>
                     <p>
-                      Each slide below includes latitude, longitude, temperature and one of the following: humidity, wind speed or cloudiness. Bubble size indicates the power of the variable, 
-                      and the color of each bubble indicates temperature. The y axis is latitude and x is longitude. Since the data is collected
+                      This plot includes both the latitude and the longitude and therefore showing humidity worldwide. 
+                      The color of each bubble indicates
+                      humidity as a percentage. The y axis is latitude and x is longitude. Since the data is collected
                       from cities and weather readings are absent from unpopulated areas, the graph produced almost 
                       looks like a world map.
                     </p>
@@ -82,12 +83,8 @@
       <div class="container">
         <div class="row">
             <div class="col-md-12">
-              <h5 id=>Linear Regression</h5>
-              <p>
-               As previously noted, the strongest correlation seems to be regarding
-               temperatures and latitude. The plot on the lower right reflects readings 
-               from the northern hemisphere.               
-              </p>
+              <h2>Linear Regression</h2>
+
               <p>
                As previously noted, the strongest correlation seems to be regarding
                temperatures and latitude. The plot on the lower right reflects readings 

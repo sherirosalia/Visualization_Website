@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
 
-    <title>Comparisons</title>
+    <title>Temperatures</title>
   </head>
   <body>
 
@@ -31,14 +31,14 @@
               <a class="nav-link" href="table.html">Data</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  active" href="compare.html">Comparisons</a>
+              <a class="nav-link" href="compare.html">Comparisons</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="world.html">World at a Glance</a>
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Visualizations</a>   
+                <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Visualizations</a>   
                 <div class="dropdown-menu">
                     <a href="v1.html" class="dropdown-item">Latitude vs Temperatures</a>
                     <a href="v2.html" class="dropdown-item">Latitude vs Humidity</a>
@@ -55,59 +55,16 @@
       <section class="container-fluid flex-grow content">
           <!-- put page content below -->
 
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12">
-                    <h2>Weather Data vs. Latitude</h2>
-                    <h4 class="font-weight-light">Side by side comparison of humidity, wind speed, temperature and cloudiness:</h4>
-                    <h5>
-                      For all scatter plot illustrations, the equator correlates with "0" on the x axis line.                 
-                    The strongest correlation is likely expected in the graph Latitude vs. Temperatures 
-                    which shows that it is hottest close to the equator.
-                    </h5>
-                      
-                  </div>
-              </div>
-            
-        </div>
-        <div class="container ">
-            <div class="row">
-                <div class="col-md-6">                 
-                  <img class="d-block w-100 mx-auto " src="../images/cloudiness.png" alt="cloudiness">
-                </div>
-                <div class="col-md-6">                 
-                    <img class="d-block w-100 mx-auto " src="../images/temperature.png" alt="temps">
-                  </div>
-                  <div class="col-md-6">                 
-                    <img class="d-block w-100 mx-auto " src="../images/windspeed.png" alt="windspeed">
-                  </div>
-                  <div class="col-md-6">                 
-                      <img class="d-block w-100 mx-auto " src="../images/humidity.png" alt="humidity">
-                </div>
-                <!-- <div class="col-md-6">                 
-                    <img class="d-block w-100 mx-auto " src="../images/lin_regHumidity.png" alt="humidity resgression">
-                  </div>
-                  <div class="col-md-6">                 
-                      <img class="d-block w-100 mx-auto " src="../images/lin_regTemperature.png" alt="temperature regression">
-                </div> -->
-            </div>
-          
-      </div>
 
 
       <div class="container">
         <div class="row">
             <div class="col-md-12">
-              <h3>Observations on latitude:</h3>
-              <h5>
-                Perhaps of interest is the fact that most of the world's population and landmass is
-                in the northern hemisphere. Since the temperature readings come from cities the 
-                data does not reflect what may be happening in unpopulated areas.              
-              The "Latitude vs. Windspeed" graph shows some spikes near the North and South Poles.
-              </h5>
-
-             
+              <h2>Latitude & Temperature</h2>
             </div>
+            <div class="col-md-12">                 
+                <img class="d-block w-75 mx-auto " src="../images/temperature.png" alt="temperatures">
+              </div>
         </div>
       
   </div>
@@ -115,8 +72,9 @@
   </section>
       <!-- end of sectiion -->
 
+
+</div>
       <!-- beginning of footer -->
-    </div>
       <footer class="bg-dark text-white mt-auto">
         <div class="container-fluid py-3">
             <div class="row">

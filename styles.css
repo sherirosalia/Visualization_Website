@@ -31,7 +31,10 @@ article {
   height: 42px;
 
 }
-
+.dropdown-menu  {
+  left: 25em!important;
+  margin-right: 2px!important;
+}
 
 .content {
   position: relative;
